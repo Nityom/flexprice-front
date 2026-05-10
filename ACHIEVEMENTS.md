@@ -41,7 +41,27 @@ Implemented a sophisticated state management pattern for UI filters:
 
 ---
 
-## 🏗️ 3. Engineering Excellence
+## 🧠 3. Technical Approach & Design Philosophy
+
+### A. Atomic Component Extraction
+My approach to building the library was to follow the **Atomic Design** methodology. I categorized components into Atoms, Molecules, and Organisms to ensure a clear hierarchy and high reusability. When extracting components from the main app, I performed a "clean-slate" refactor—decoupling them from domain-specific logic while preserving the core FlexPrice aesthetic.
+
+### B. State Management: The "Shallow Sync" Pattern
+For Challenge A, I avoided the common pitfall of bloating URLs with raw JSON. Instead, I implemented a **Shallow Sync** pattern:
+1.  **Zustand** handles the heavy lifting of state updates and persistence in `sessionStorage`.
+2.  **Base64 Hashing**: Only a hashed fingerprint of the state is pushed to the URL. This ensures that the URL remains short and professional while still enabling state restoration on page reload.
+
+### C. Test-Driven Documentation
+I treated Storybook not just as a visual gallery, but as a **verification suite**. 
+- **Interaction over Snapshots**: While visual snapshots (Chromatic) catch CSS regressions, I prioritized `play` functions (Storybook Interaction Testing) to verify user behavior—such as typing in formatted inputs, clicking through nested navigation, and triggering tooltips.
+- **Portals & Matchers**: I implemented custom logic to handle Radix UI Portals in the testing environment, ensuring that floating elements (Select, Tooltip) are correctly detected in the `document.body` during automated runs.
+
+### D. Performance-First Organisms
+For the `VirtualizedTable`, the approach was to decouple data fetching from rendering. By using TanStack Virtual, the component only renders the 10-12 rows visible in the viewport, regardless of the dataset size. This ensures the dashboard remains responsive even under heavy data load.
+
+---
+
+## 🏗️ 4. Engineering Excellence
 
 - **TypeScript Integrity**: Resolved all `any` types and strictly typed all component props and hook returns.
 - **Clean Code**: Fixed 85+ pre-existing and new linting issues to ensure a zero-error `eslint` report.
