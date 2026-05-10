@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import CustomerApi from '@/api/CustomerApi';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import toast from 'react-hot-toast';
 import { logger } from '@/utils/common/Logger';
 

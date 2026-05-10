@@ -5,7 +5,7 @@ import { Event } from '@/models/Event';
 import toast from 'react-hot-toast';
 import EventsApi from '@/api/EventsApi';
 import { Skeleton } from '@/components/ui/skeleton';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { useNavigate } from 'react-router';
 import SubscriptionApi from '@/api/SubscriptionApi';
 import CustomerApi from '@/api/CustomerApi';

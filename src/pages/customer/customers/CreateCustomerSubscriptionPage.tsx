@@ -10,7 +10,7 @@ import { AlertTriangle } from 'lucide-react';
 
 import { AddonApi, CustomerApi, PlanApi, SubscriptionApi, TaxApi, CouponApi } from '@/api';
 import { refetchQueries } from '@/core/services/tanstack/ReactQueryProvider';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { getApiErrorMessage } from '@/core/axios/types';
 
 import {

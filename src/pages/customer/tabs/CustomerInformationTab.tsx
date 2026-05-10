@@ -14,7 +14,7 @@ import { refetchQueries } from '@/core/services/tanstack/ReactQueryProvider';
 import { logger } from '@/utils/common/Logger';
 import { CONNECTION_PROVIDER_TYPE } from '@/models/Connection';
 import { useCustomerPortalUrl } from '@/hooks/useCustomerPortalUrl';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { CustomerResponse } from '@/types/dto';
 import { uniq } from 'lodash';
 import { Skeleton } from '@/components/ui';

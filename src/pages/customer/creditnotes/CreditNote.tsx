@@ -5,7 +5,7 @@ import CreditNoteApi from '@/api/CreditNoteApi';
 import { useQuery } from '@tanstack/react-query';
 import { useNavigate, useParams, useOutletContext } from 'react-router';
 import { Card } from '@/components/atoms';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 
 const CreditNote = () => {
 	const { id: customerId } = useParams();

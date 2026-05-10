@@ -21,7 +21,7 @@ import { EXPAND } from '@/models/expand';
 import { generateExpandQueryParams } from '@/utils/common/api_helper';
 import { searchCustomersForFilter, searchPlansForFilter } from '@/utils/filterSearchHelpers';
 import { useNavigate } from 'react-router';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import formatDate from '@/utils/common/format_date';
 import { Trash2 } from 'lucide-react';
 import { SubscriptionResponse } from '@/types/dto/Subscription';

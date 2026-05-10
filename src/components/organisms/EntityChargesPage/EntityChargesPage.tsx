@@ -11,7 +11,7 @@ import { AddChargesButton, InternalPrice } from '@/components/organisms/PlanForm
 import { currencyOptions } from '@/constants/constants';
 import { RecurringChargesForm } from '@/components/organisms/PlanForm';
 import UsagePricingForm, { PriceInternalState } from '@/components/organisms/PlanForm/UsagePricingForm';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { useBreadcrumbsStore } from '@/store/useBreadcrumbsStore';
 import { RectangleRadiogroup, RectangleRadiogroupOption } from '@/components/molecules';
 import { Gauge, Repeat } from 'lucide-react';

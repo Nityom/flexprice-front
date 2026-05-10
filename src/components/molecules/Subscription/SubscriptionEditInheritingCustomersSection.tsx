@@ -3,7 +3,7 @@ import { useMutation } from '@tanstack/react-query';
 import { Card, FormHeader, AddButton, Dialog, Button } from '@/components/atoms';
 import FlexpriceTable, { ColumnData, RedirectCell } from '@/components/molecules/Table';
 import { SubscriptionResponse } from '@/types/dto/Subscription';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import formatDate from '@/utils/common/format_date';
 import SubscriptionApi from '@/api/SubscriptionApi';
 import CustomerApi from '@/api/CustomerApi';

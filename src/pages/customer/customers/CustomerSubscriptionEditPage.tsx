@@ -36,7 +36,7 @@ import { ExtendedPriceOverride } from '@/utils/common/price_override_helpers';
 import { convertPriceOverrideToLineItemUpdate } from '@/utils/subscription/priceOverrideToLineItemUpdate';
 import { isInheritedSubscription } from '@/utils/subscription/isInheritedSubscription';
 import { getPriceTypeFromLineItem, lineItemToPrice } from '@/utils/subscription/lineItemToPrice';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { refetchQueries } from '@/core/services/tanstack/ReactQueryProvider';
 import { ENTITY_STATUS, CreditGrant, CREDIT_GRANT_SCOPE } from '@/models';
 import { useSubscriptionEditCoreQuery } from '@/hooks/useSubscriptionEditCoreQuery';

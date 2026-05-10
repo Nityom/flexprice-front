@@ -76,7 +76,8 @@ export { default as PaymentUrlSuccessDialog } from './PaymentUrlSuccessDialog';
 export { default as DecimalUsageInput } from './DecimalUsageInput';
 
 // Error Boundary
-export { default as ErrorBoundary } from './ErrorBoundary';
+export { ErrorBoundary, ErrorFallback, RouterErrorElement } from './ErrorBoundary';
+export { ErrorBoundary as default } from './ErrorBoundary';
 
 export { default as Tooltip } from './Tooltip';
 

@@ -4,7 +4,7 @@ import EventFilter, { EventFilterData } from '@/components/molecules/EventFilter
 import SelectGroup from '@/components/organisms/PlanForm/SelectGroup';
 import { AddChargesButton } from '@/components/organisms/PlanForm/SetupChargesSection';
 import { GROUP_ENTITY_TYPE } from '@/models/Group';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { queryClient, refetchQueries } from '@/core/services/tanstack/ReactQueryProvider';
 import { SIDEBAR_PRICING_PROMO_QUERY_KEY } from '@/hooks/useShouldShowSidebarPricingPromo';
 import { cn } from '@/lib/utils';

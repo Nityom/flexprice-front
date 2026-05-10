@@ -8,7 +8,7 @@ import { EyeIcon, EyeOff } from 'lucide-react';
 import { useMutation } from '@tanstack/react-query';
 import AuthApi from '@/api/AuthApi';
 import { NODE_ENV, NodeEnv } from '@/types';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import GoogleSignin from './GoogleSignin';
 import { AuthTab } from './authTabs';
 

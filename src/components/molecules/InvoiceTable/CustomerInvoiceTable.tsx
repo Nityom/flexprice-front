@@ -5,7 +5,7 @@ import { formatBillingPeriod } from '@/utils/common/format_date';
 import { Invoice, INVOICE_STATUS, INVOICE_TYPE } from '@/models/Invoice';
 import { getPaymentStatusChip, getStatusChip } from './InvoiceTable';
 import Customer from '@/models/Customer';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 
 const getPlanDisplayName = (invoice: Invoice): string => {
 	if (invoice.invoice_type !== INVOICE_TYPE.SUBSCRIPTION) return '--';

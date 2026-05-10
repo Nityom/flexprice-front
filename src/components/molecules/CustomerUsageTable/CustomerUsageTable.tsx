@@ -1,6 +1,6 @@
 import { Chip, Progress, Tooltip } from '@/components/atoms';
 import { ColumnData, FlexpriceTable, RedirectCell } from '@/components/molecules';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { FEATURE_TYPE } from '@/models/Feature';
 import { FC } from 'react';
 import { getFeatureIcon } from '@/components/atoms/SelectFeature/SelectFeature';

@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle, CardDescription, Skeleton } from '@/components/ui';
 import { PAYMENT_STATUS } from '@/constants';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { getTypographyClass } from '@/lib/typography';
 import { ENTITY_STATUS } from '@/models';
 import type { FilterCondition } from '@/types/common/QueryBuilder';

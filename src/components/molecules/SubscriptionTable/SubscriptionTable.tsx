@@ -4,7 +4,7 @@ import FlexpriceTable, { ColumnData } from '../Table';
 import formatDate from '@/utils/common/format_date';
 import { Subscription, SUBSCRIPTION_STATUS } from '@/models/Subscription';
 import { useNavigate } from 'react-router';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import RedirectCell from '../Table/RedirectCell';
 import { Trash2 } from 'lucide-react';
 import { SubscriptionResponse } from '@/types/dto/Subscription';

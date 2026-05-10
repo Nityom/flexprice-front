@@ -18,7 +18,7 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/comp
 import { PlanApi, WorkflowApi } from '@/api';
 
 // Core services and routes
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 
 // Models and types
 import { Plan, ENTITY_STATUS } from '@/models';

@@ -8,7 +8,7 @@ import { Select, SelectContent, useSidebar } from '@/components/ui';
 import * as SelectPrimitive from '@radix-ui/react-select';
 import { SelectOption } from '@/components/atoms/Select/Select';
 import { useNavigate } from 'react-router';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { useEnvironment } from '@/hooks/useEnvironment';
 import { useRestrictedEnvs, EnvRestrictionState } from '@/hooks/useRestrictedEnvs';
 import { Button } from '@/components/atoms';

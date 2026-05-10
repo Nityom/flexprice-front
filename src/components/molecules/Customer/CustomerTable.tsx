@@ -6,7 +6,7 @@ import formatChips from '@/utils/common/format_chips';
 import Customer from '@/models/Customer';
 import CustomerApi from '@/api/CustomerApi';
 import { useNavigate } from 'react-router';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { ENTITY_STATUS } from '@/models';
 import { ExternalLink } from 'lucide-react';
 import { useCustomerPortalUrl } from '@/hooks/useCustomerPortalUrl';

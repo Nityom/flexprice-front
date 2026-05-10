@@ -5,7 +5,7 @@ import { useQuery, useQueries } from '@tanstack/react-query';
 import { SubscriptionTable } from '@/components/organisms';
 import { Subscription, SUBSCRIPTION_STATUS, PRICE_ENTITY_TYPE } from '@/models';
 import toast from 'react-hot-toast';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import CustomerUsageTable from '@/components/molecules/CustomerUsageTable';
 import { UpcomingCreditGrantApplicationsTable } from '@/components/molecules';
 import SubscriptionApi from '@/api/SubscriptionApi';

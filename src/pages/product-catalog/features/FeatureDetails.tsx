@@ -6,7 +6,7 @@ import toast from 'react-hot-toast';
 import { EyeOff, Bell, EllipsisVertical, Pencil } from 'lucide-react';
 import { v4 as uuidv4 } from 'uuid';
 // Core utilities and APIs
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import FeatureApi from '@/api/FeatureApi';
 import EntitlementApi from '@/api/EntitlementApi';
 import formatChips from '@/utils/common/format_chips';

@@ -7,7 +7,7 @@ import { useQuery } from '@tanstack/react-query';
 import CustomerApi from '@/api/CustomerApi';
 import { Link, useNavigate } from 'react-router';
 import { Progress } from '@/components/ui';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import EventsApi from '@/api/EventsApi';
 import { getCommandPaletteActionEventName, CommandPaletteActionId } from '@/core/actions';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui';

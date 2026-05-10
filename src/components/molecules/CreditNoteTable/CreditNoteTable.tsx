@@ -5,7 +5,7 @@ import FlexpriceTable, { ColumnData, RedirectCell } from '../Table';
 import { formatDateShort, getCurrencySymbol } from '@/utils/common/helper_functions';
 import { Chip } from '@/components/atoms';
 import { useNavigate } from 'react-router';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 
 export interface Props {
 	data: CreditNote[];

@@ -1,5 +1,5 @@
 import { Button, Spacer } from '@/components/atoms';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { TriangleAlert } from 'lucide-react';
 import { Link } from 'react-router';
 

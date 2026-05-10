@@ -3,7 +3,7 @@ import { ApiDocsContent, ColumnData, FlexpriceTable, CostSheetDrawer } from '@/c
 import usePagination, { PAGINATION_PREFIX } from '@/hooks/usePagination';
 import { API_DOCS_TAGS } from '@/constants/apiDocsTags';
 import { DetailsCard } from '@/components/molecules';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { Price } from '@/models/Price';
 import { ENTITY_STATUS } from '@/models';
 import { useBreadcrumbsStore } from '@/store/useBreadcrumbsStore';

@@ -8,7 +8,7 @@ import { refetchQueries } from '@/core/services/tanstack/ReactQueryProvider';
 import { useNavigate } from 'react-router';
 import { COUPON_TYPE, COUPON_CADENCE } from '@/types/common/Coupon';
 import { CreateCouponRequest, UpdateCouponRequest } from '@/types/dto/Coupon';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { getCurrencyOptions } from '@/constants/constants';
 
 interface Props {

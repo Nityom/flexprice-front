@@ -6,7 +6,7 @@ import { formatDateShort } from '@/utils/common/helper_functions';
 import { TAX_RATE_TYPE, TAX_RATE_STATUS, TaxRate } from '@/models/Tax';
 import TaxApi from '@/api/TaxApi';
 import formatChips from '@/utils/common/format_chips';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { useNavigate } from 'react-router';
 
 interface Props {

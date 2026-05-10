@@ -19,7 +19,7 @@ import { WalletTransaction } from '@/models/WalletTransaction';
 import { WALLET_TRANSACTION_REASON, WALLET_TRANSACTION_TYPE } from '@/models/Wallet';
 import { User } from '@/models/User';
 import { formatDateShort, getCurrencySymbol } from '@/utils/common/helper_functions';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { useMemo } from 'react';
 import useAllUsers from '@/hooks/useAllUsers';
 import { cn } from '@/lib/utils';

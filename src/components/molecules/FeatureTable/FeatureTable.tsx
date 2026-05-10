@@ -7,7 +7,7 @@ import { toSentenceCase } from '@/utils/common/helper_functions';
 import formatChips from '@/utils/common/format_chips';
 import formatDate from '@/utils/common/format_date';
 import { useNavigate } from 'react-router';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import FeatureApi from '@/api/FeatureApi';
 import { getFeatureIcon } from '@/components/atoms/SelectFeature/SelectFeature';
 interface Props {

@@ -15,7 +15,7 @@ import DropdownMenu, { DropdownMenuOption } from '@/components/molecules/Dropdow
 import { refetchQueries } from '@/core/services/tanstack/ReactQueryProvider';
 import { isInheritedSubscription } from '@/utils/subscription/isInheritedSubscription';
 import { useNavigate } from 'react-router';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { ServerError } from '@/core/axios/types';
 
 interface Props {

@@ -7,7 +7,7 @@ import { Loader, Page } from '@/components/atoms';
 import { cn } from '@/lib/utils';
 import { ApiDocsContent } from '@/components/molecules';
 import GroupHeader from '@/pages/product-catalog/groups/GroupHeader';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 
 const tabs = [
 	{ id: '', label: 'Overview' },

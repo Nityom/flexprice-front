@@ -13,22 +13,41 @@ export interface SelectOption {
 	disabled?: boolean;
 }
 
-interface Props {
+/**
+ * Props for the FlexPriceSelect component.
+ */
+export interface SelectProps {
+	/** Array of options to select from */
 	options: SelectOption[];
+	/** Currently selected value */
 	value?: string;
+	/** Whether the select is open by default */
 	defaultOpen?: boolean;
+	/** Placeholder text when no option is selected */
 	placeholder?: string;
+	/** Label for the select input */
 	label?: string;
+	/** Whether the select is required */
 	required?: boolean;
+	/** Helper description text */
 	description?: string;
+	/** Error message to display */
 	error?: string;
+	/** Callback when selection changes */
 	onChange?: (value: string) => void;
+	/** Whether the select is disabled */
 	disabled?: boolean;
+	/** Render as a radio group inside the select dropdown */
 	isRadio?: boolean;
+	/** Additional CSS classes for the container */
 	className?: string;
+	/** Text to show when options array is empty */
 	noOptionsText?: string;
+	/** Hide the checkmark for the selected item */
 	hideSelectedTick?: boolean;
+	/** Custom trigger element */
 	trigger?: React.ReactNode;
+	/** Additional CSS classes for the dropdown content */
 	contentClassName?: string;
 }
 
@@ -56,7 +75,7 @@ const RadioSelectItem = React.forwardRef<
 	</SelectPrimitive.Item>
 ));
 
-const FlexPriceSelect: React.FC<Props> = ({
+const FlexPriceSelect: React.FC<SelectProps> = ({
 	disabled = false,
 	options,
 	value,

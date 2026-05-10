@@ -22,7 +22,7 @@ import Customer from '@/models/Customer';
 import { Invoice, INVOICE_STATUS, INVOICE_TYPE } from '@/models/Invoice';
 import { PAYMENT_STATUS } from '@/constants';
 import { useNavigate } from 'react-router';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { formatDateShort, getCurrencySymbol } from '@/utils/common/helper_functions';
 import { useCallback, useMemo, useState } from 'react';
 

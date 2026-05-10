@@ -1,7 +1,7 @@
 import { Button, CardHeader, Chip, Loader, Page, Spacer, Card } from '@/components/atoms';
 import { ApiDocsContent } from '@/components/molecules';
 import { DetailsCard } from '@/components/molecules';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { useBreadcrumbsStore } from '@/store/useBreadcrumbsStore';
 import TaxApi from '@/api/TaxApi';
 import formatDate from '@/utils/common/format_date';

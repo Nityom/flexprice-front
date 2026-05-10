@@ -2,7 +2,7 @@ import { AddButton, Page, ActionButton, Chip } from '@/components/atoms';
 import { ApiDocsContent, FeatureDrawer, RedirectCell } from '@/components/molecules';
 import { ColumnData } from '@/components/molecules/Table';
 import { QueryableDataArea } from '@/components/organisms';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import GUIDES from '@/constants/guides';
 import FeatureApi from '@/api/FeatureApi';
 import { Link, useNavigate } from 'react-router';

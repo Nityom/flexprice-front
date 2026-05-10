@@ -9,7 +9,7 @@ import { ApiDocsContent } from '@/components/molecules';
 import { AlertCircle } from 'lucide-react';
 import { ENTITY_STATUS } from '@/models';
 import CustomerHeader from '@/components/molecules/Customer/CustomerHeader';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 
 const tabs = [
 	{ id: '', label: 'Overview' },

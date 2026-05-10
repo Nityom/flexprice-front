@@ -1,6 +1,6 @@
 import { Button, Dialog, Input, Spacer, Textarea } from '@/components/atoms';
 import { PlanApi } from '@/api/PlanApi';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { ServerError } from '@/core/axios/types';
 import { refetchQueries } from '@/core/services/tanstack/ReactQueryProvider';
 import { ClonePlanRequest, PlanResponse } from '@/types/dto';

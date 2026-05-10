@@ -7,7 +7,7 @@ import { User } from '@/models';
 import toast from 'react-hot-toast';
 import { ColumnData } from '@/components/molecules/Table/Table';
 import { AlertTriangle, Copy, Download, Eye, EyeOff, Info, Link2, Lock, Mail } from 'lucide-react';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { refetchQueries } from '@/core/services/tanstack/ReactQueryProvider';
 import usePagination, { PAGINATION_PREFIX } from '@/hooks/usePagination';
 

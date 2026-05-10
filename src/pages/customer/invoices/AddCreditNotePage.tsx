@@ -10,7 +10,7 @@ import { CreateCreditNoteLineItemRequest, CreateCreditNoteParams, CREDIT_NOTE_RE
 import CreditNoteApi from '@/api/CreditNoteApi';
 import { PAYMENT_STATUS, formatCurrency, getCurrencySymbol, toSentenceCase } from '@/constants';
 import toast from 'react-hot-toast';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { AddChargesButton } from '@/components/organisms/PlanForm/SetupChargesSection';
 import { PremiumFeatureIcon } from '@/components/molecules/PremiumFeature/PremiumFeature';
 

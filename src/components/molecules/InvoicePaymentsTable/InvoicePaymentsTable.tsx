@@ -4,7 +4,7 @@ import FlexpriceTable, { ColumnData, TooltipCell } from '../Table';
 import { formatDateShort, toSentenceCase, getCurrencySymbol } from '@/utils/common/helper_functions';
 import { Chip, NoDataCard } from '@/components/atoms';
 import { CreditCard, Banknote, Receipt, CircleDollarSign, ExternalLink, Copy, Eye } from 'lucide-react';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { RedirectCell } from '../Table';
 import { PAYMENT_METHOD_TYPE } from '@/constants';
 import DropdownMenu, { DropdownMenuOption } from '../DropdownMenu';

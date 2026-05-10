@@ -12,7 +12,7 @@ import { useNavigate } from 'react-router';
 import { refetchQueries } from '@/core/services/tanstack/ReactQueryProvider';
 import { PAYMENT_DESTINATION_TYPE } from '@/models/Payment';
 import { PAYMENT_STATUS } from '@/constants';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 
 interface Props {
 	data: Invoice;

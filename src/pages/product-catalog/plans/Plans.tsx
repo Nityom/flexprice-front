@@ -20,7 +20,7 @@ import {
 } from '@/types/common/QueryBuilder';
 import { ENTITY_STATUS } from '@/models';
 import { useNavigate } from 'react-router';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import formatChips from '@/utils/common/format_chips';
 import formatDate from '@/utils/common/format_date';
 import toast from 'react-hot-toast';

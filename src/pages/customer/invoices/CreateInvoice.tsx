@@ -9,7 +9,7 @@ import { currencyOptions } from '@/constants/constants';
 import { formatDateShort, getCurrencySymbol, calculateCouponDiscount } from '@/utils/common/helper_functions';
 import InvoiceApi from '@/api/InvoiceApi';
 import toast from 'react-hot-toast';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { Trash2 } from 'lucide-react';
 import { AddChargesButton } from '@/components/organisms/PlanForm/SetupChargesSection';
 import { InvoiceType, PAYMENT_STATUS } from '@/constants';

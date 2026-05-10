@@ -6,7 +6,7 @@ import { ENTITY_STATUS } from '@/models';
 import formatChips from '@/utils/common/format_chips';
 import formatDate from '@/utils/common/format_date';
 import { PlanApi } from '@/api/PlanApi';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { useNavigate } from 'react-router';
 export interface PlansTableProps {
 	data: Plan[];

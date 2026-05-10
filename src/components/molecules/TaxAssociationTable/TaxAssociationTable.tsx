@@ -5,7 +5,7 @@ import { Chip, ActionButton } from '@/components/atoms';
 import { formatDateShort } from '@/utils/common/helper_functions';
 import TaxApi from '@/api/TaxApi';
 import formatChips from '@/utils/common/format_chips';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 
 interface Props {
 	data: TaxAssociationResponse[];

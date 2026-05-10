@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router';
 import { useMutation, useQuery } from '@tanstack/react-query';
 import toast from 'react-hot-toast';
 import { Button, Input, Loader, Select, SelectOption } from '@/components/atoms';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import TenantApi from '@/api/TenantApi';
 import OnboardingApi from '@/api/OnboardingApi';
 import { TenantMetadataKey, type Tenant } from '@/models';

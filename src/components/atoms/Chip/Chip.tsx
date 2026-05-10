@@ -1,7 +1,7 @@
 import { cn } from '@/lib/utils';
 import { FC, ReactNode } from 'react';
 
-type ChipVariant = 'default' | 'success' | 'warning' | 'failed' | 'info';
+export type ChipVariant = 'default' | 'success' | 'warning' | 'failed' | 'info';
 
 interface ChipColorScheme {
 	textColor: string;
@@ -9,7 +9,7 @@ interface ChipColorScheme {
 	borderColor: string;
 }
 
-interface ChipProps {
+export interface ChipProps {
 	/** The main content of the chip */
 	label?: ReactNode;
 	/** Visual style variant of the chip */

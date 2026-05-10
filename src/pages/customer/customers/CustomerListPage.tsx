@@ -19,7 +19,7 @@ import {
 import { extractMetadataFromTypedFilters, METADATA_TYPED_FILTER_FIELD } from '@/types/formatters/QueryBuilder';
 import { ENTITY_STATUS } from '@/models';
 import { useNavigate } from 'react-router';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import formatDate from '@/utils/common/format_date';
 import formatChips from '@/utils/common/format_chips';
 import { ExternalLink } from 'lucide-react';

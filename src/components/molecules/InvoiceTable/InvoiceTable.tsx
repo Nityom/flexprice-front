@@ -5,7 +5,7 @@ import { formatDateShort, getCurrencySymbol } from '@/utils/common/helper_functi
 import { Chip } from '@/components/atoms';
 import { useNavigate } from 'react-router';
 import InvoiceTableMenu from './InvoiceTableMenu';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { PAYMENT_STATUS } from '@/constants';
 export interface Props {
 	data: Invoice[];

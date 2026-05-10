@@ -7,7 +7,7 @@ import toast from 'react-hot-toast';
 import { queryClient, refetchQueries } from '@/core/services/tanstack/ReactQueryProvider';
 import { SIDEBAR_PRICING_PROMO_QUERY_KEY } from '@/hooks/useShouldShowSidebarPricingPromo';
 import { useNavigate } from 'react-router';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { CreatePlanRequest, UpdatePlanRequest, PlanResponse, CreatePlanResponse } from '@/types/dto';
 interface Props {
 	data?: Plan | null;

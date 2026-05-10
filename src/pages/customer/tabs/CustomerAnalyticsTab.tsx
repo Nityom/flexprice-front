@@ -19,7 +19,7 @@ import { getCurrencySymbol } from '@/utils';
 import { PriceTooltip } from '@/components/molecules/PriceTooltip';
 import { Skeleton } from '@/components/ui';
 import { ENTITY_STATUS } from '@/models/base';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { PremiumFeatureIcon } from '@/components/molecules/PremiumFeature/PremiumFeature';
 import { ChevronDown, ChevronUp, ChevronsUpDown } from 'lucide-react';
 

@@ -1,6 +1,6 @@
 import { useEffect, useCallback } from 'react';
 import { BookOpen, ExternalLink, ChevronsUpDown, LogOut, Settings } from 'lucide-react';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { SidebarMenuButton, useSidebar, Popover, PopoverContent, PopoverTrigger, Skeleton } from '@/components/ui';
 import { cn } from '@/lib/utils';
 

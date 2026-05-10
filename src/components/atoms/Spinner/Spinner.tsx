@@ -1,7 +1,12 @@
 import React from 'react';
 
-interface SpinnerProps {
+/**
+ * Props for the Spinner component.
+ */
+export interface SpinnerProps {
+	/** The size of the spinner in pixels (width and height) */
 	size?: number;
+	/** Additional CSS classes to apply to the svg element */
 	className?: string;
 }
 

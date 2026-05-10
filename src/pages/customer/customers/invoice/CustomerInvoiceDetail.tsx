@@ -16,7 +16,7 @@ import { useMutation, useQuery } from '@tanstack/react-query';
 import { Download } from 'lucide-react';
 import { FC, useEffect, useRef, useState } from 'react';
 import toast from 'react-hot-toast';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { cn } from '@/lib/utils';
 import { getPaymentStatusChip } from '@/components/molecules/InvoiceTable/InvoiceTable';
 import { INVOICE_STATUS, INVOICE_TYPE } from '@/models/Invoice';

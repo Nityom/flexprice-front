@@ -11,7 +11,7 @@ import { RedirectCell, Table, TableBody, TableCell, TableHead, TableHeader, Tabl
 import { getCurrencySymbol } from '@/utils';
 import { cn } from '@/lib/utils';
 import RevenueDashboardApi from '@/api/RevenueDashboardApi';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import type { RevenueDashboardGraphPoint } from '@/types/dto/RevenueDashboard';
 
 type RevenueFilterValue = 'this_month' | 'this_quarter' | 'this_year' | 'last_month' | 'last_quarter' | 'last_year';

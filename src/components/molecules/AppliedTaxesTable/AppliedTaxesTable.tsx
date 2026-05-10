@@ -7,7 +7,7 @@ import { useQuery } from '@tanstack/react-query';
 import TaxApi from '@/api/TaxApi';
 import { TaxRateResponse } from '@/types/dto/tax';
 import { formatAmount } from '@/constants/common';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 
 interface Props {
 	data: TaxApplied[];

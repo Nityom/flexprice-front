@@ -5,7 +5,7 @@ import CustomerApi from '@/api/CustomerApi';
 import { useQuery } from '@tanstack/react-query';
 import { useNavigate, useParams, useOutletContext } from 'react-router';
 import { Invoice as InvoiceModel } from '@/models/Invoice';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { useMemo } from 'react';
 import Customer from '@/models/Customer';
 import usePagination from '@/hooks/usePagination';

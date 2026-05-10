@@ -9,7 +9,7 @@ import { getFeatureTypeChips } from '@/components/molecules/CustomerUsageTable/C
 import { formatAmount } from '@/components/atoms/Input/Input';
 import { Entitlement, ENTITY_STATUS, FEATURE_TYPE, ENTITLEMENT_ENTITY_TYPE, EXPAND, ENTITLEMENT_USAGE_RESET_PERIOD } from '@/models';
 import { EntitlementResponse } from '@/types';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { ActionButton } from '@/components/atoms';
 import { Trash2 } from 'lucide-react';
 import toast from 'react-hot-toast';

@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { EventProcessedEvent } from '@/types/dto';
 import { formatDateTimeWithSecondsAndTimezone } from '@/utils/common/format_date';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import RedirectCell from '@/components/molecules/Table/RedirectCell';
 import { CheckCircle2, Clock } from 'lucide-react';
 

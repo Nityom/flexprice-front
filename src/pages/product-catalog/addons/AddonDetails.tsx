@@ -1,7 +1,7 @@
 import { ActionButton, Button, CardHeader, Chip, Loader, Page, Spacer, NoDataCard } from '@/components/atoms';
 import { ApiDocsContent, ColumnData, FlexpriceTable, AddonDrawer, AddEntitlementDrawer, RedirectCell } from '@/components/molecules';
 import { DetailsCard } from '@/components/molecules';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { Price } from '@/models/Price';
 import { useBreadcrumbsStore } from '@/store/useBreadcrumbsStore';
 import AddonApi from '@/api/AddonApi';

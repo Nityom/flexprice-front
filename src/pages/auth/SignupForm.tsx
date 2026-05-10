@@ -6,7 +6,7 @@ import AuthApi from '@/api/AuthApi';
 import { useMutation } from '@tanstack/react-query';
 import { EyeOff } from 'lucide-react';
 import { EyeIcon } from 'lucide-react';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { useNavigate, useSearchParams } from 'react-router';
 import { NODE_ENV, NodeEnv } from '@/types';
 import GoogleSignin from './GoogleSignin';

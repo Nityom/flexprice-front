@@ -19,7 +19,7 @@ import { ENTITY_STATUS } from '@/models';
 import { COUPON_TYPE } from '@/types/common/Coupon';
 import { Coupon } from '@/models/Coupon';
 import { useNavigate } from 'react-router';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import formatChips from '@/utils/common/format_chips';
 import formatDate from '@/utils/common/format_date';
 import { getCurrencySymbol } from '@/utils/common/helper_functions';

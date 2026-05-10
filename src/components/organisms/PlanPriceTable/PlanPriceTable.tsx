@@ -16,7 +16,7 @@ import { useMutation, useQuery } from '@tanstack/react-query';
 import { PriceApi } from '@/api/PriceApi';
 import toast from 'react-hot-toast';
 import { useNavigate } from 'react-router';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { getPriceTypeLabel } from '@/utils';
 import { BILLING_PERIOD } from '@/constants/constants';
 import { ChargeValueCell } from '@/components/molecules';
@@ -45,7 +45,7 @@ const PLAN_CHARGES_PAGE_SIZE = 10;
 
 // ===== TYPES & CONSTANTS =====
 
-interface PlanChargesTableProps {
+export interface PlanChargesTableProps {
 	plan: Plan;
 	onPriceUpdate?: () => void;
 }
@@ -68,7 +68,7 @@ const PriceDropdown: FC<PriceDropdownProps> = ({ row, hasEndDate, onEditPrice, o
 	};
 
 	return (
-		<div data-interactive='true' onClick={handleClick}>
+		<div data-interactive='true' data-testid='price-dropdown-trigger' onClick={handleClick}>
 			<DropdownMenu
 				isOpen={isOpen}
 				onOpenChange={setIsOpen}

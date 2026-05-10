@@ -2,7 +2,7 @@ import { Fragment, useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate, useLocation } from 'react-router';
 import toast from 'react-hot-toast';
 import { ArrowRight, Check, Loader2, X } from 'lucide-react';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { queryClient } from '@/core/services/tanstack/ReactQueryProvider';
 import { SIDEBAR_PRICING_PROMO_QUERY_KEY } from '@/hooks/useShouldShowSidebarPricingPromo';
 import { parsePricingWithLLM } from '@/api/ai/llm';

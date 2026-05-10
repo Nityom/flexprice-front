@@ -4,7 +4,7 @@ import { ArrowLeft } from 'lucide-react';
 import TaskRunsTable from '@/components/molecules/TaskRunsTable/TaskRunsTable';
 import { API_DOCS_TAGS } from '@/constants/apiDocsTags';
 import { ApiDocsContent } from '@/components/molecules';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 
 const TaskRunsPage = () => {
 	const { connectionId, exportId } = useParams<{ connectionId: string; exportId: string }>();

@@ -4,7 +4,7 @@ import { DetailsCard, UpdateSubscriptionDrawer } from '@/components/molecules';
 import { getSubscriptionStatus } from '@/components/organisms/Subscription/SubscriptionTable';
 import { getCurrencySymbol } from '@/utils/common/helper_functions';
 import formatDate from '@/utils/common/format_date';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { getTypographyClass } from '@/lib/typography';
 import { Pencil, ExternalLink } from 'lucide-react';
 import { Link } from 'react-router';

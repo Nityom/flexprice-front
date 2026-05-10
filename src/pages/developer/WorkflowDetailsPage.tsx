@@ -4,7 +4,7 @@ import { useParams, useNavigate } from 'react-router';
 import { useQuery } from '@tanstack/react-query';
 import { ArrowLeft } from 'lucide-react';
 import WorkflowApi from '@/api/WorkflowApi';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import formatDate from '@/utils/common/format_date';
 import { WORKFLOW_TYPE_DISPLAY_NAMES } from '@/constants/workflow';
 import type { WorkflowDetailsResponse, WorkflowActivityDTO } from '@/types/dto';

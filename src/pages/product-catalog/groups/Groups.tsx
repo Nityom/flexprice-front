@@ -3,7 +3,7 @@ import { ApiDocsContent, GroupDrawer } from '@/components/molecules';
 import { ColumnData } from '@/components/molecules/Table';
 import { QueryableDataArea } from '@/components/organisms';
 import { useNavigate } from 'react-router';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { Group } from '@/models/Group';
 import { getGroupEntityTypeLabel } from '@/models/Group';
 import { ENTITY_STATUS } from '@/models';

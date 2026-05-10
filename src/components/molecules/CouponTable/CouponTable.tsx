@@ -9,7 +9,7 @@ import formatDate from '@/utils/common/format_date';
 import CouponApi from '@/api/CouponApi';
 import { useNavigate } from 'react-router';
 import CouponDrawer from '../CouponDrawer';
-import { RouteNames } from '@/core/routes/Routes';
+import { RouteNames } from '@/core/routes/RouteNames';
 import { getCurrencySymbol } from '@/utils/common/helper_functions';
 
 export interface CouponTableProps {

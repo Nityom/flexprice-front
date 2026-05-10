@@ -1,6 +1,6 @@
 import { NODE_ENV, NodeEnv } from '@/types';
 import supabase from '../services/supbase/config';
-import { RouteNames } from '../routes/Routes';
+import { RouteNames } from '../routes/RouteNames';
 
 class AuthService {
 	public static async getAcessToken() {
